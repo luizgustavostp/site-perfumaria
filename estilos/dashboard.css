@@ -190,7 +190,7 @@ section {
 #user-logged {
     visibility: visible !important;
     max-width: 800px !important;
-    margin: 24px;
+    margin: 24px auto !important;
     text-align: start !important;
     h1 {
         text-align: center;

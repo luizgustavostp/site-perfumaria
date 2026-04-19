@@ -232,7 +232,7 @@ main {
     left: 50%;
     background-color: #f7f7f7;
     z-index: 9999;
-    transform: translate(-50%,-50%);
+    transform: translate(                                                                                                                                                                                                                                                                                         -50%,-50%);
     svg {
         margin: 0 !important;
     }

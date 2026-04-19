@@ -36,7 +36,6 @@ export async function displayupdate(btn1,btn2,displayurl) {
     console.log("depois da fetch")
     hamburguerbtn.addEventListener("click",() => {
         let display = document.getElementById(displayurl)
-        console.log("fodase")
         let displaystyle = window.getComputedStyle(display).display
         if (displaystyle == "none") {
             display.style.display = "block"
@@ -46,7 +45,6 @@ export async function displayupdate(btn1,btn2,displayurl) {
         }
     })
     quitbtn.addEventListener("click",() => {
-        console.log("fodase")
         let display = document.getElementById(displayurl)
         let displaystyle = window.getComputedStyle(display).display
         if (displaystyle == "none") {
